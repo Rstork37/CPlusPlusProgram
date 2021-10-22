@@ -107,3 +107,8 @@ CS350 - Emerging System Arch & Tech
   - What do computer scientists do and why does it matter? This is a really important field because it is the future for a range of products.  When humans are taken out of the learning equation, the computer can learn much faster without human input.  Learning may become exponential with this field of study.
   - How do I approach a problem as a computer scientist? I try to break down the problem into smaller problems.  Once broken down, I try to tackle them one at a time until the whole problem has been solved.  
   - What are my ethical responsibilities to the end user and the organization? It is my responsibility to not break any laws and stay within proper ethics protocol.  Beyond that it is also my responsibility to report anybody that is violating these ethical priorities.
+  
+  CS 470 Full Stack Development 2
+  - In this course, we took a local web application, containerized it, and then brought it to the cloud.
+  - Oct 21st, 2021
+  - https://youtu.be/6LlpXi-EWxw
