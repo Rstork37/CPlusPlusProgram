@@ -12,7 +12,8 @@
                     HorizontalOptions="Center"
                     Text="Load File"
                     x:Name="btnLoadFile"
-                    Clicked="BtnLoadFile_Clicked"/>
+                    Clicked="BtnLoadFile_Clicked"
+                    IsEnabled="False"/>
             <Label VerticalOptions="Center"
                    HorizontalOptions="Center"
                    Text="No file loaded yet"
@@ -23,6 +24,10 @@
                     Text="Click Me"
                     x:Name="BtnClickMe"
                     Clicked="BtnClickMe_Clicked"/>
+            <ProgressBar ProgressColor="Blue"
+                         Progress="0.0"
+                         x:Name="LoadingBar"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

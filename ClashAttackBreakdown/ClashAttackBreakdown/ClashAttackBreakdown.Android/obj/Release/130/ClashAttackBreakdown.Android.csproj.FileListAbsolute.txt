@@ -74,6 +74,10 @@ C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttack
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\ClashAttackBreakdown.pdb
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\FormsViewGroup.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\FormsViewGroup.pdb
+C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\I18N.dll
+C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\I18N.pdb
+C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\I18N.West.dll
+C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\I18N.West.pdb
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\Java.Interop.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\Java.Interop.pdb
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\Microcharts.dll
@@ -105,6 +109,7 @@ C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttack
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\System.Data.DataSetExtensions.pdb
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\System.Data.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\System.Data.pdb
+C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\System.Data.SqlClient.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\System.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\System.Drawing.Common.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.Android\obj\Release\130\android\assets\System.Drawing.Common.pdb

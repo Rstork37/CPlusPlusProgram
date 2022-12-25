@@ -17,13 +17,13 @@ namespace ClashAttackBreakdown.Views
 	public partial class ViewGraph : ContentPage
 	{
 
-        private List<EachAttack> attacks;
+        private List<dboAttackPull> attacks;
         private string playerTag;
 
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            attacks = await App.Database.GetAttacksForGraph();
+            attacks = await App.Database.GetDatabaseAttacksAsync();
             List<Microcharts.ChartEntry> eachAttackEntry = new List<Microcharts.ChartEntry>();
             List<Microcharts.ChartEntry> triplePercentEntry = new List<Microcharts.ChartEntry>();
             List<Microcharts.ChartEntry> averageAttackDestructionEntry = new List<Microcharts.ChartEntry>();
@@ -32,13 +32,13 @@ namespace ClashAttackBreakdown.Views
             int triplePercent;
             float averageAttackDestruction;
             int totalDestruction = 0;
-            foreach (EachAttack attack in attacks)
+            foreach (dboAttackPull attack in attacks)
             {
-                if (attack.tag == playerTag)
+                if (attack.memberTag == playerTag)
                 {
-                    PlayerName.Text = attack.name;
+                    PlayerName.Text = attack.memberName;
                     attackNumber++;
-                    totalDestruction += attack.destruction;
+                    totalDestruction += attack.destructionPercentage;
                     string attackDestructionColor = "#3498db";
                     string averageDestructionColor = "#3498db";
                     string triplePercentColor = "#3498db";
@@ -49,11 +49,11 @@ namespace ClashAttackBreakdown.Views
                     triplePercent = (tripleCount * 100) / attackNumber;
                     averageAttackDestruction = (float)totalDestruction/ attackNumber;
 
-                    if (attack.destruction > 90)                                // Set the color for the Each Attack
+                    if (attack.destructionPercentage > 90)                                // Set the color for the Each Attack
                     {
                         attackDestructionColor = "00FF00";
                     }
-                    else if (attack.destruction > 85)
+                    else if (attack.destructionPercentage > 85)
                     {
                         attackDestructionColor = "FFFF00";
                     }
@@ -86,10 +86,10 @@ namespace ClashAttackBreakdown.Views
                     {
                         triplePercentColor = "FF0000";
                     }
-                    ChartEntry singleAttackEntry = new ChartEntry(attack.destruction)
+                    ChartEntry singleAttackEntry = new ChartEntry(attack.destructionPercentage)
                     {                                                                   // Chart entry for attack destruction
                         Label = " ",
-                        ValueLabel = attack.destruction.ToString(),
+                        ValueLabel = attack.destructionPercentage.ToString(),
 
                         Color = SKColor.Parse(attackDestructionColor)
                         

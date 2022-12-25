@@ -7,6 +7,7 @@ C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttack
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown\obj\Release\netstandard2.0\AppShell.xaml.g.cs
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown\obj\Release\netstandard2.0\ViewModels\ViewDataModel.xaml.g.cs
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown\obj\Release\netstandard2.0\Views\StartingPage.xaml.g.cs
+C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown\obj\Release\netstandard2.0\Views\TableViewOfAttacksCombined.xaml.g.cs
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown\obj\Release\netstandard2.0\Views\ViewAttackCombinedDetail.xaml.g.cs
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown\obj\Release\netstandard2.0\Views\ViewData.xaml.g.cs
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown\obj\Release\netstandard2.0\Views\ViewGraph.xaml.g.cs

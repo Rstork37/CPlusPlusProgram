@@ -18,6 +18,7 @@ namespace ClashAttackBreakdown.Services
             theDatabase= new SQLiteAsyncConnection(dbpath);
             theDatabase.CreateTableAsync<AttacksCombined>();
             theDatabase.CreateTableAsync<EachAttack>();
+            theDatabase.CreateTableAsync<dboAttackPull>();
         }
 
 
@@ -66,6 +67,22 @@ namespace ClashAttackBreakdown.Services
         public Task<List<EachAttack>> GetAttacksForGraph()
         {
             return theDatabase.Table<EachAttack>().ToListAsync();
+        }
+
+
+        public Task<List<dboAttackPull>> GetDatabaseAttacksAsync()
+        {
+            return theDatabase.Table<dboAttackPull>().ToListAsync();
+        }
+
+        public Task<int> InsertAllDBAttacks(List<dboAttackPull> attacks)
+        {
+            return theDatabase.InsertAllAsync(attacks);
+        }
+
+        public Task<int> ClearAllDBAttacks()
+        {
+            return theDatabase.DeleteAllAsync<dboAttackPull>();
         }
     }
 

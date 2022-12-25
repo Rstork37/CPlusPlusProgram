@@ -13,6 +13,7 @@ C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttack
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.iOS\bin\iPhoneSimulator\Release\SQLitePCLRaw.core.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.iOS\bin\iPhoneSimulator\Release\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.iOS\bin\iPhoneSimulator\Release\System.Buffers.dll
+C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.iOS\bin\iPhoneSimulator\Release\System.Data.SqlClient.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.iOS\bin\iPhoneSimulator\Release\System.Memory.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.iOS\bin\iPhoneSimulator\Release\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Ryan\source\repos\ClashAttackBreakdown\ClashAttackBreakdown\ClashAttackBreakdown.iOS\bin\iPhoneSimulator\Release\Xamarin.Essentials.dll

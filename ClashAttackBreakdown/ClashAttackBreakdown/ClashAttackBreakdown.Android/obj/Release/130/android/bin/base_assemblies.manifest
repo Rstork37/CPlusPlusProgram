@@ -98,4 +98,7 @@ Hash 32     Hash 64             Blob ID  Blob idx  Name
 0x24154ecb  0x7885a79a0fa0d987  000      0096      System.IO.Compression.FileSystem
 0xad0d8637  0x6fa2739369944712  000      0097      System.ComponentModel.Composition
 0x0de07cb4  0x1fb3d1f42fd4249a  000      0098      System.Web.Services
-0xc197c562  0x8ac2470b209ebae3  000      0099      Mono.Security
+0xe4905834  0x49179dcea0d046d8  000      0099      System.Data.SqlClient
+0xc197c562  0x8ac2470b209ebae3  000      0100      Mono.Security
+0xd556f045  0x3194576a63650740  000      0101      I18N
+0x99db1da0  0x022b428a125098f1  000      0102      I18N.West
