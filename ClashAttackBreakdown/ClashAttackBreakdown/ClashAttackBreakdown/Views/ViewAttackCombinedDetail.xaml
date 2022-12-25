@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClashAttackBreakdown.Views.ViewAttackCombinedDetail">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Graph"
+                     Clicked="ToolbarItemGraph_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                    VerticalOptions="CenterAndExpand" 
+                    x:Name="name"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="totalStars"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="numberOfOffensiveAttacks"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="triples"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="singles"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="totalDestruction"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="averageDestruction"/>
+
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="defensiveStars"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="numberOfDefensiveAttacks"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="defensiveTriples"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="totalDefensiveDestruction"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="averageDefensiveDestruction"/>
+                <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="defenseSingles"/>
+                    <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="defenseZeroStars"/>
+                    <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="netStars"/>
+                    <Label TextColor="{StaticResource StandardTextColor}"
+                   VerticalOptions="CenterAndExpand" 
+                    x:Name="netPercent"/>
+                </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ClashAttackBreakdown.Models"
+             x:DataType="local:AttacksCombined"
+             x:Class="ClashAttackBreakdown.Views.TableViewOfAttacksCombined">
+    <ContentPage.Content>
+        <ScrollView Orientation="Both" HorizontalOptions="Fill">
+            <CollectionView x:Name="GridListView">
+                <CollectionView.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width = "100"/>
+                            <ColumnDefinition Width = "100"/>
+                            <ColumnDefinition Width = "100"/>
+                            <ColumnDefinition Width = "100"/>
+                            <ColumnDefinition Width = "100"/>
+                            <ColumnDefinition Width = "100"/>
+                        </Grid.ColumnDefinitions >
+                        <Label Text = "Name" Grid.Column = "0" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                        <Label Text = "Total Stars" Grid.Column = "1" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                        <Label Text = "Triples" Grid.Column = "2" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                        <Label Text = "Singles" Grid.Column = "3" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                        <Label Text = "Total Destruction" Grid.Column = "4" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                        <Label Text = "Average Destruction" Grid.Column = "5" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions >
+                                    <ColumnDefinition Width = "100" />
+                                    <ColumnDefinition Width = "100" />
+                                    <ColumnDefinition Width = "100" />
+                                    <ColumnDefinition Width = "100" />
+                                    <ColumnDefinition Width = "100" />
+                                    <ColumnDefinition Width = "100" />
+                                </Grid.ColumnDefinitions >
+                                <Label Grid.Column = "0" Text = "{Binding name}" HorizontalOptions = "Fill" BackgroundColor = "White" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                                <Label Grid.Column = "1" Text = "{Binding totalStars}" HorizontalOptions = "Fill" BackgroundColor = "White" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                                <Label Grid.Column = "2" Text = "{Binding triples}" HorizontalOptions = "Fill" BackgroundColor = "White" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                                <Label Grid.Column = "3" Text = "{Binding singles}" HorizontalOptions = "Fill" BackgroundColor = "White" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                                <Label Grid.Column = "4" Text = "{Binding totalDestruction}" HorizontalOptions = "Fill" BackgroundColor = "White" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                                <Label Grid.Column = "5" Text = "{Binding AverageDestruction}" HorizontalOptions = "Fill" BackgroundColor = "White" TextColor = "{StaticResource StandardTextColor}" HorizontalTextAlignment = "Center" WidthRequest = "100" />
+                            </Grid >
+                        </ViewCell >
+                    </DataTemplate >
+                </CollectionView.ItemTemplate >
+            </CollectionView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="ClashAttackBreakdown.Views.ViewGraph">
+    <ScrollView>
+        <StackLayout>
+            <Label x:Name="PlayerName" TextColor="{StaticResource PlayerNameTextColor}"/>
+            <forms:ChartView x:Name="ChartEachAttackDestruction"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand"/>
+            <forms:ChartView x:Name="ChartAverageDestruction"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand"
+                             IsVisible="false"/>
+            <forms:ChartView x:Name="ChartTriplePercent"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand"
+                             IsVisible="false"/>
+            
+            <RadioButton Content="Each Attack %" 
+                         IsChecked="True"
+                         CheckedChanged="RadioButtonAttack_CheckedChanged"
+                         TextColor="{StaticResource StandardTextColor}"/>
+            <RadioButton Content="Average Destruction Trend"
+                         CheckedChanged="RadioButtonDestruction_CheckedChanged"
+                         TextColor="{StaticResource StandardTextColor}"/>
+            <RadioButton Content="Triple Percentage Trend"
+                         CheckedChanged="RadioButtonTriple_CheckedChanged"
+                         TextColor="{StaticResource StandardTextColor}"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

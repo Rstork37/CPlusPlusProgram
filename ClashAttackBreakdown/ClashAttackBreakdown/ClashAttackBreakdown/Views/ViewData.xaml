@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ClashAttackBreakdown.Views.ViewData"
+             BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Table View" Clicked="TableView_Clicked"/>
+    </ContentPage.ToolbarItems>
+    
+        <ListView x:Name="theListView" 
+                  SeparatorVisibility="None"
+                  HasUnevenRows="True"
+                  ItemSelected="theListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid ColumnDefinitions="*,*">
+                            <Label Text="{Binding name}" 
+                                   Grid.Row="0" 
+                                   FontSize="Medium" 
+                                   TextColor="DeepPink"/>
+                            <Label Text="Average Destruction:" 
+                                   Grid.Column="0" 
+                                   Grid.Row="1"
+                                   TextColor="Black"/>
+                            <Label Text="{Binding AverageDestruction}" 
+                                   Grid.Column="1" 
+                                   Grid.Row="1"
+                                   TextColor="Black"/>
+                        </Grid>
+                    </ViewCell>
+
+                </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>
